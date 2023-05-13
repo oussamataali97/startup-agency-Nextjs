@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,4 +20,38 @@
 
 .boxs{
     box-shadow: 0 0 1.5625rem 0 rgb(54 186 254 / 10%);
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.update{
+    position: relative;
+
+}
+
+.gradient {
+    @apply bg-gradient-to-r from-blues to-cyan-500
+}
+
+.update::before{
+    content: '';
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: blue;
+    opacity: 0.4;
+}
+
+.centred {
+    @apply flex justify-center items-center
+}
+
+.titles {
+    @apply flex items-center gap-3 text-xl font-bold text-blue-900
+}
+
+.subtitles {
+    @apply py-5 text-gray-600 text-center
 }
