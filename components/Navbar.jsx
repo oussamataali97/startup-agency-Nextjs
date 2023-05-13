@@ -10,13 +10,16 @@ const Navbar = () => {
     let services = ["Home","Services","How we Work","Pricing","Contact","Blog"]
     const [toggle,setToggle]=useState(false)
 
-    window.addEventListener('scroll',()=>{
+    if (typeof window === "object") {
+
+      window.addEventListener('scroll',()=>{
        if( window.scrollY < 50 ){
         setToggle(true)
        }else{
         setToggle(false)
        }
     })
+    }
   return (
 
     <nav className={toggle ? 'fixed top-0 right-0 left-0 ease-linear duration-300  px-16 py-5 text-white flex justify-between items-center' : 'fixed top-0 right-0 left-0 bg-white shadow-sm z-50 ease-linear duration-300  text-black px-16 py-5 flex justify-between items-center' }>
