@@ -55,3 +55,11 @@ body{
 .subtitles {
     @apply py-5 text-gray-600 text-center
 }
+
+.blue_gradient{
+    @apply bg-gradient-to-r from-purple-800 to-blue-600 ;
+  }
+
+  .white_title {
+    @apply text-[30px] font-[600]
+  }
