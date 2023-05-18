@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero'
 import How from '@/components/How'
 import Navbar from '@/components/Navbar'
+import Packages from '@/components/Packages'
 import Platforms from '@/components/Platforms'
 import Services from '@/components/Services'
 import Startup from '@/components/Startup'
@@ -16,6 +17,7 @@ export default function Home() {
       <Startup/>
       <How/>
       <Platforms/>
+      <Packages/>
     </div>
   )
 }

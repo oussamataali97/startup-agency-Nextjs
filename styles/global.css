@@ -63,3 +63,15 @@ body{
   .white_title {
     @apply text-[30px] font-[600]
   }
+
+  .heade{
+    @apply text-center text-[20px] font-bold  text-purple-800 py-3
+  }
+
+  .subheade{
+    @apply text-center text-[40px] font-bold  text-blue-900 pb-16
+  }
+
+  .between {
+    @apply px-16 py-8
+  }
