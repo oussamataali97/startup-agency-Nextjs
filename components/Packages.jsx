@@ -26,7 +26,7 @@ const Packages = () => {
             },
             {
                 name: 'Content Optimization',
-                kayna: true
+                kayna: false
             },
         ]
 
@@ -41,7 +41,7 @@ const Packages = () => {
             },
             {
                 name: '6 Top 10 Ranking                ',
-                kayna: false
+                kayna: true
             },
             {
                 name: 'Web Site Analysis                ',
@@ -67,11 +67,11 @@ const Packages = () => {
             },
             {
                 name: '9 Top 10 Ranking                ',
-                kayna: false
+                kayna: true
             },
             {
                 name: 'Web Site Analysis                ',
-                kayna: false
+                kayna: true
             },
             {
                 name: 'Keyword Research',
@@ -91,7 +91,7 @@ const Packages = () => {
 
 
                 {palns.map((plan, index) => (
-                    <div className="border rounded-lg px-5 py-9 max-w-[400px]" key={index}>
+                    <div className="border rounded-lg px-5 py-9 max-w-[400px] plan hover:border-t-2 hover:border-t-blues" key={index}>
                         < p className='text-gray-600 font-[600] uppercase  '>{plan.name}</p>
                         <p className=' text-[50px] text-blues font-[700] '>{plan.price} $</p>
                         <hr className='mx-auto w-[300px] my-4' />
@@ -102,7 +102,7 @@ const Packages = () => {
 
 
                         </ul>
-                        <button className='my-5 rounded-full py-3 px-7 outline outline-1 outline-gray-300 text-blue-800 font-bold  hover:text-white hover:bg-blues'>CHOSE PLAN</button>
+                        <button className='my-5 ease-out duration-200 rounded-full py-3 px-7 outline outline-1 outline-gray-300 text-blue-800 font-bold  hover:text-white hover:bg-blues'>CHOSE PLAN</button>
                     </div>
                 ))}
 

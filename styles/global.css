@@ -18,12 +18,18 @@
     filter: blur(80px);
 }
 
+.plan:hover{
+    box-shadow: 0 0 1.5625rem 0 rgb(54 186 254 / 10%);
+
+}
+
 .boxs{
     box-shadow: 0 0 1.5625rem 0 rgb(54 186 254 / 10%);
 }
 
 body{
     font-family: 'Inter', sans-serif;
+
 }
 .update{
     position: relative;
@@ -32,6 +38,9 @@ body{
 
 .gradient {
     @apply bg-gradient-to-r from-blues to-cyan-500
+}
+nav{
+    z-index: 1000000 !important;
 }
 
 .update::before{
