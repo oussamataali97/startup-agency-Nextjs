@@ -22,11 +22,11 @@ const How = () => {
     },]
   return (
     <div className='px-16 py-8 relative'>
-    <p className='text-center text-[20px] font-bold  text-purple-800 py-3'> HOW WE WORK</p>
-    <p className='text-center text-[40px] font-bold  text-blue-900 pb-16'>Future is brighter when you're  <br className='max-w-md:hidden'/> strategically more prepared </p>
+    <p className='text-center text-[20px] font-bold  text-purple-800 py-3' data-aos="flip-up" > HOW WE WORK</p>
+    <p className='text-center text-[40px] font-bold  text-blue-900 pb-16' data-aos="flip-up">Future is brighter when you're  <br className='max-w-md:hidden'/> strategically more prepared </p>
         <div className="flex justify-around items-center">
         {data.map((ele,index)=>(
-          <div className="flex items-center flex-col max-w-[300px]" key={index}>
+          <div className="flex items-center flex-col max-w-[300px]" key={index} data-aos="flip-down">
             <div className="rounded-full w-max bg-gray-100 p-4 border-white border-[9px] boxs relative ">
             <Image src={ele.imUrl} width={100} height={200} alt="logo" className=""/>
             <p className="absolute top-0 right-0 gradient border-white border-[2px] rounded-full text-white font-[600] w-10 h-10  centred">{ele.badge}</p>

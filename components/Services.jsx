@@ -22,11 +22,11 @@ const Services = () => {
     }]
     return (
         <div className='px-16 py-32 relative services-list-items'>
-            <p className='text-center text-[20px] font-bold  text-purple-800 py-3'> SERVICES WE PROVIDE</p>
-            <p className='text-center text-[40px] font-bold  text-blue-900 pb-16'>We turn information into <br className='max-w-md:hidden'/> actionable insights</p>
+            <p className='text-center text-[20px] font-bold  text-purple-800 py-3' data-aos="fade-left"> SERVICES WE PROVIDE</p>
+            <p className='text-center text-[40px] font-bold  text-blue-900 pb-16' data-aos="fade-right">We turn information into <br className='max-w-md:hidden'/> actionable insights</p>
             <div className="boxs flex justify-between gap-5 ">
                {data.map((ele,index)=>(
-                <div className="box shadow-md p-5 bg-white" key={index}>
+                <div className="box shadow-md p-5 bg-white" key={index} data-aos="fade-down">
                     <p className='flex items-center gap-3 text-xl font-bold text-blue-900'> <Image src={ele.imgUrl} width={80} height={50}/> {ele.title}</p>
                     <p className='py-5 text-gray-600 lead'> {ele.desc} </p>
                     <ul>

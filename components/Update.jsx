@@ -10,23 +10,23 @@ const Update = () => {
     return (
         <div className="update px-16 bg-[url('/assets/18.jpg')] w-full h-[500px] z-[10] bg-cover bg-fixed flex justify-center items-center">
             <div className=" z-50 flex justify-between items-center gap-5 w-full text-white">
-                <div className="border pr-9 pl-5 py-10 rounded-lg ">
+                <div className="border pr-9 pl-5 py-10 rounded-lg " data-aos="fade-up-right">
                     <p className=' text-[40px] font-bold '>{<CountUp start={0} duration={2.75} end={230} />}</p>
                     <p className='text-[20px] font-500 w-fit '>Satisfied Customers</p>
 
                 </div>
-                <div className="border pr-9 pl-5 py-10 rounded-lg ">
+                <div className="border pr-9 pl-5 py-10 rounded-lg " data-aos="fade-up-left">
                     <p className=' text-[40px] font-bold '>{<CountUp start={0} duration={2.75} end={300} />}</p>
                     <p className='text-[20px] font-500 '>Professional Agents
 </p>
 
                 </div>
-                <div className="border pr-9 pl-5 py-10 rounded-lg ">
+                <div className="border pr-9 pl-5 py-10 rounded-lg " data-aos="fade-down-right">
                     <p className=' text-[40px] font-bold '>{<CountUp start={0} duration={2.75} end={100} />}</p>
                     <p className='text-[20px] font-500 '>Type Of Services</p>
 
                 </div>
-                <div className="self-start">
+                <div className="self-start" data-aos="fade-down-left">
                     <p className=' text-[30px] font-[600] '>Stay Update With Us</p>
                     <p className='py-5 font-[300]'>Dried quick round it or order. Add past see west felt did any. Say out noise you taste.</p>
                     <div className="form relative ">
