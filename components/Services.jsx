@@ -26,12 +26,12 @@ const Services = () => {
             <p className='text-center text-[40px] font-bold  text-blue-900 pb-16' data-aos="fade-right">We turn information into <br className='max-w-md:hidden'/> actionable insights</p>
             <div className="boxs flex justify-between gap-5 ">
                {data.map((ele,index)=>(
-                <div className="box shadow-md p-5 bg-white" key={index} data-aos="fade-down">
-                    <p className='flex items-center gap-3 text-xl font-bold text-blue-900'> <Image src={ele.imgUrl} width={80} height={50}/> {ele.title}</p>
-                    <p className='py-5 text-gray-600 lead'> {ele.desc} </p>
+                <div className="box shadow-md p-5 bg-white" key={index} >
+                    <p data-aos="fade-down" className='flex items-center gap-3 text-xl font-bold text-blue-900'> <Image src={ele.imgUrl} width={80} height={50}/> {ele.title}</p>
+                    <p data-aos="fade-down" className='py-5 text-gray-600 lead'> {ele.desc} </p>
                     <ul>
                         {ele.types.map((type,index)=>(
-                            <li key={index} className='flex items-center mb-3 gap-2 text-blue-900 font-semibold'><AiFillCheckCircle size={20} className='text-purple-700'/>{type}</li>
+                            <li data-aos="zoom-out" key={index} className='flex items-center mb-3 gap-2 text-blue-900 font-semibold'><AiFillCheckCircle size={20} className='text-purple-700'/>{type}</li>
                         ))}
                     </ul>
                 </div>

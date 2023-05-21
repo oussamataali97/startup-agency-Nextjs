@@ -91,13 +91,13 @@ const Packages = () => {
 
 
                 {palns.map((plan, index) => (
-                    <div className="border rounded-lg px-5 py-9 max-w-[400px] plan hover:border-t-2 hover:border-t-blues" key={index}>
-                        < p className='text-gray-600 font-[600] uppercase  '>{plan.name}</p>
-                        <p className=' text-[50px] text-blues font-[700] '>{plan.price} $</p>
+                    <div className="planss border rounded-lg px-5 py-9 max-w-[400px] plan hover:border-t-2 hover:border-t-blues" key={index}>
+                        < p className='text-gray-600 font-[600] uppercase  '  data-aos="fade-down">{plan.name}</p>
+                        <p className=' text-[50px] text-blues font-[700] '  data-aos="fade-down">{plan.price} $</p>
                         <hr className='mx-auto w-[300px] my-4' />
                         <ul className='px-6 space-y-2 text-gray-700 font-[300] my-10'>
                             {plan.features.map((feature, index) => (
-                                <li className='flex items-center justify-between text-[15px] gap-8' key={index}>{feature.name} { feature.kayna ?<AiFillCheckCircle className='text-green-400' /> : <AiFillCloseCircle className='text-red-400' />}</li>
+                                <li  data-aos="fade-left" className='flex items-center justify-between text-[15px] gap-8' key={index}>{feature.name} { feature.kayna ?<AiFillCheckCircle className='text-green-400' /> : <AiFillCloseCircle className='text-red-400' />}</li>
                             ))}
 
 

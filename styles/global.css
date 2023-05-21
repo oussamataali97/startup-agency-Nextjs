@@ -18,7 +18,11 @@
     filter: blur(80px);
 }
 
-.plan:hover{
+.planss:nth-child(2){
+    box-shadow: 0 0 4rem 0px rgb(54 186 254 / 38%);
+}
+
+.plan:nth-child(odd):hover{
     box-shadow: 0 0 1.5625rem 0 rgb(54 186 254 / 10%);
 
 }
@@ -36,11 +40,21 @@ body{
 
 }
 
+.swiper-pagination-bullet{
+    background-color: rgb(26, 113, 184) !important;
+
+
+}
+
 .gradient {
     @apply bg-gradient-to-r from-blues to-cyan-500
 }
 nav{
     z-index: 1000000 !important;
+}
+
+.swiper-button{
+    background-color: red !important;
 }
 
 .update::before{
@@ -83,4 +97,8 @@ nav{
 
   .between {
     @apply px-16 py-8
+  }
+
+  .swiper-button-next , .swiper-button-prev {
+    margin:0px 20px !important;
   }
