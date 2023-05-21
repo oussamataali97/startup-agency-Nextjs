@@ -45,7 +45,7 @@ const Navbar = () => {
     <AiOutlineUser/> LOGIN</button>
 
     </nav>
-    <div className={menu ? 'shadow-md py-6 space-y-4 z-[50] bg-gray-100  text-neutral-900  px-5   text-lg font-semibold fixed top-[89px] duration-500 ease-in w-full'  : ' w-full duration-500 ease-in-out  bg-gray-100 text-neutral-600  px-5  text-lg font-semibold absolute -top-[200px]'}>
+    <div className={menu ? 'shadow-md py-6 space-y-4 z-[50] bg-gray-100  text-neutral-900  px-5   text-lg font-semibold fixed top-[89px] duration-500 ease-in w-full'  : ' w-full duration-500 ease-in-out  bg-gray-100 text-neutral-600  px-5  text-lg font-semibold absolute -top-[400px]'}>
     <ul className='flex flex-col space-y-4'>
             {services.map((service,index)=>(
                 <li className=' font-[500] border-b-2'  key={index}> <a href={`#${service.replaceAll(' ','-')}`} className='hover:text-blue-800 duration-75 ease-in'>{service.toUpperCase()}</a></li>
