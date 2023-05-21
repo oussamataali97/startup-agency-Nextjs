@@ -51,6 +51,7 @@ body{
 }
 nav{
     z-index: 1000000 !important;
+
 }
 
 .swiper-button{
@@ -78,6 +79,8 @@ nav{
 .subtitles {
     @apply py-5 text-gray-600 text-center
 }
+
+
 
 .blue_gradient{
     @apply bg-gradient-to-r from-purple-800 to-blue-600 ;
