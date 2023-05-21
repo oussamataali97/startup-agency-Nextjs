@@ -21,10 +21,10 @@ const How = () => {
         badge:'03',
     },]
   return (
-    <div className='px-16 py-8 relative'>
-    <p className='text-center text-[20px] font-bold  text-purple-800 py-3' data-aos="flip-up" > HOW WE WORK</p>
-    <p className='text-center text-[40px] font-bold  text-blue-900 pb-16' data-aos="flip-up">Future is brighter when you're  <br className='max-w-md:hidden'/> strategically more prepared </p>
-        <div className="flex justify-around items-center">
+    <div className='px-6 lg:px-16 py-8 relative'>
+    <p className='heade py-3' data-aos="flip-up" > HOW WE WORK</p>
+    <p className='subheade pb-16' data-aos="flip-up">Future is brighter when you're  <br className='max-w-md:hidden'/> strategically more prepared </p>
+        <div className="flex flex-col md:flex-row justify-around items-center">
         {data.map((ele,index)=>(
           <div className="flex items-center flex-col max-w-[300px]" key={index} data-aos="flip-down">
             <div className="rounded-full w-max bg-gray-100 p-4 border-white border-[9px] boxs relative ">

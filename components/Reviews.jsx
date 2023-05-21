@@ -39,7 +39,7 @@ const Reviews = () => {
 
 
     return (
-        <div className='bg-blue-100 py-16'>
+        <div className='bg-blue-100 py-16 px-6 md:px-0'>
             <p className='heade' data-aos="fade-left">REVIEW</p>
             <p className='text-center text-[40px] font-bold  text-blue-900 pb-6' data-aos="fade-right">10,000+ Happy Customers
 </p>

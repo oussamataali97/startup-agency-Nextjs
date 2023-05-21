@@ -91,16 +91,18 @@ nav{
   }
 
   .heade{
-    @apply text-center text-[20px] font-bold  text-purple-800 py-3
+    @apply text-center text-[17px] lg:text-[20px] font-bold  text-purple-800 py-3
   }
 
   .subheade{
-    @apply text-center text-[40px] font-bold  text-blue-900 pb-16
+    @apply text-center text-[29px] lg:text-[40px] font-bold  text-blue-900 pb-16
   }
 
   .between {
     @apply px-16 py-8
   }
+
+
 
   .swiper-button-next , .swiper-button-prev {
     margin:0px 20px !important;

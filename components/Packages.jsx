@@ -84,14 +84,14 @@ const Packages = () => {
         ]
     },]
     return (
-        <div className='between'>
+        <div className='px-6 lg:px-16 py-8 '>
             <p className='heade'>OUR PACKAGES</p>
             <p className="subheade">Take a look of our Pricing and <br /> select Your Choice</p>
-            <div className="grid grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center place-items-center">
 
 
                 {palns.map((plan, index) => (
-                    <div className="planss border rounded-lg px-5 py-9 max-w-[400px] plan hover:border-t-2 hover:border-t-blues" key={index}>
+                    <div className="planss border rounded-lg px-5 py-9 w-full lg:max-w-[400px] plan hover:border-t-2 hover:border-t-blues" key={index}>
                         < p className='text-gray-600 font-[600] uppercase  '  data-aos="fade-down">{plan.name}</p>
                         <p className=' text-[50px] text-blues font-[700] '  data-aos="fade-down">{plan.price} $</p>
                         <hr className='mx-auto w-[300px] my-4' />
