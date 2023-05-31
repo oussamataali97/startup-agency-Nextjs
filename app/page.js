@@ -3,6 +3,7 @@ import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
 import How from '@/components/How'
 import Navbar from '@/components/Navbar'
+import News from '@/components/News'
 import Packages from '@/components/Packages'
 import Platforms from '@/components/Platforms'
 import Reviews from '@/components/Reviews'
@@ -30,6 +31,7 @@ export default function Home() {
       <Packages/>
       <Reviews/>
       <Contact/>
+      <News/>
     </div>
   )
 }
