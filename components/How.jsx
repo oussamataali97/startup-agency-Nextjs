@@ -21,7 +21,7 @@ const How = () => {
         badge:'03',
     },]
   return (
-    <div className='px-6 lg:px-16 py-8 relative'>
+    <div className='px-6 lg:px-16 py-8 relative' id="How-we-Work">
     <p className='heade py-3' data-aos="flip-up" > HOW WE WORK</p>
     <p className='subheade pb-16' data-aos="flip-up">Future is brighter when you're  <br className='max-w-md:hidden'/> strategically more prepared </p>
         <div className="flex flex-col md:flex-row justify-around items-center">

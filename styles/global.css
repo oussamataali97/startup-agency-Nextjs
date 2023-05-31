@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    scroll-behavior: smooth;
+}
+
 .services-list-items::after {
     position: absolute;
     left: 50%;
@@ -143,7 +147,7 @@ content: "";
     background-size: cover;
     background-repeat: no-repeat;
 
-    opacity: 0.9;
+    opacity: 0.5;
     background-image: url('/assets/42.png');
 
 

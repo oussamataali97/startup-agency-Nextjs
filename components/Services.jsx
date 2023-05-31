@@ -21,7 +21,7 @@ const Services = () => {
         types: ["Phase management", "Team management", "Communication"]
     }]
     return (
-        <div className='px-6 lg:px-16 lg:py-32 pt-64 pb-16 relative services-list-items'>
+        <div id='Services' className='px-6 lg:px-16 lg:py-32 pt-64 pb-16 relative services-list-items'>
             <p className='text-center text-[17px] lg:text-[20px] font-bold  text-purple-800 py-3' data-aos="fade-left"> SERVICES WE PROVIDE</p>
             <p className='text-center text-[29px] lg:text-[40px] font-bold  text-blue-900 pb-16' data-aos="fade-right">We turn information into <br className='max-w-md:hidden'/> actionable insights</p>
             <div className="boxs flex flex-col md:flex-row justify-between gap-5 ">

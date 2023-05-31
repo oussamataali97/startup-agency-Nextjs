@@ -2,7 +2,7 @@ import React from 'react'
 
 const News = () => {
   return (
-    <div className='px-6 md:px-16 py-16'>
+    <div className='px-6 md:px-16 py-16' id='Blog'>
         <p className='heade'>LATEST NEWS</p>
         <p className='subheade'>Most Popular Breaking News & <br className='hidden md:block'/> Top Stories</p>
         <div className="grid lg:grid-cols-3 place-items-center gap-y-6" data-aos="zoom-in">

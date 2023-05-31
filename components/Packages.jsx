@@ -84,7 +84,7 @@ const Packages = () => {
         ]
     },]
     return (
-        <div className='px-6 lg:px-16 py-8 '>
+        <div className='px-6 lg:px-16 py-8 ' id='Pricing'>
             <p className='heade'>OUR PACKAGES</p>
             <p className="subheade">Take a look of our Pricing and <br /> select Your Choice</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center place-items-center">

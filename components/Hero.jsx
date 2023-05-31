@@ -5,7 +5,7 @@ import {AiFillPlayCircle} from 'react-icons/ai'
 const Hero = () => {
 
   return (
-    <div className="" >
+    <div className="" id='Home' >
         <Image
         width={1900}
         height={967}
