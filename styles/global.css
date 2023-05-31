@@ -31,6 +31,10 @@
     box-shadow: 0 0 1.5625rem 0 rgb(54 186 254 / 10%);
 }
 
+.boxss{
+    box-shadow:0 0 1rem 10px rgb(54 186 254 / 10%)
+}
+
 body{
     font-family: 'Inter', sans-serif;
 
@@ -97,6 +101,11 @@ nav{
   .subheade{
     @apply text-center text-[29px] lg:text-[40px] font-bold  text-blue-900 pb-16
   }
+
+  .map path{
+    stroke: rgb(106, 96, 255) !important;
+    font-weight: 300 !important;
+}
 
   .between {
     @apply px-16 py-8
