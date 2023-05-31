@@ -131,3 +131,20 @@ nav{
   .swiper-button-next , .swiper-button-prev {
     margin:0px 20px !important;
   }
+
+  .footer-sec::before{
+content: "";
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    opacity: 0.9;
+    background-image: url('/assets/42.png');
+
+
+  }
