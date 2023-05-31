@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
 
     <>
-    <nav className={toggle ? ' fixed top-0 right-0 left-0 ease-linear duration-300  px-8 md:px-16 py-5 text-white flex justify-between items-center' : 'fixed top-0 right-0 left-0 bg-white shadow-sm z-50 ease-linear duration-300  text-black px-8 md:px-16 py-5 flex justify-between items-center' }>
+    <nav className={toggle ? ' fixed top-0 right-0 left-0 ease-linear duration-300  px-4 md:px-16 py-5 text-white flex justify-between items-center' : 'fixed top-0 right-0 left-0 bg-white shadow-sm z-50 ease-linear duration-300  text-black px-4 md:px-16 py-5 flex justify-between items-center' }>
        <a href="#"> <Image className='' src={toggle ? "/assets/logo-light.png" : "/assets/logo-blue.png"} alt='logo' width={138} height={50}/></a>
         <ul className='md:flex space-x-5 hidden'>
             {services.map((service,index)=>(
