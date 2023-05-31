@@ -4,7 +4,7 @@ import {FiPhoneCall ,FiMail} from 'react-icons/fi'
 import Image from 'next/image'
 const Contact = () => {
   return (
-    <div className='flex justify-between pt-16 pb-56 px-20 gap-16 relative' >
+    <div className='flex justify-between flex-col md:flex-row pt-16 pb-56 px-6 md:px-20 gap-8 md:gap-16 relative' >
         <div className="flex-1 w-full" data-aos="zoom-in">
             <h1 className='text-[17px] lg:text-[20px] font-bold  text-purple-800 py-2'>CONTACT US</h1>
             <p className='text-[29px] lg:text-[34px] font-bold  text-[#0e2258] pb-2'>Then book your trip  from our <br/> exclusive offers.</p>
@@ -18,7 +18,7 @@ const Contact = () => {
                 <button className='bg-blues px-8 py-4 rounded-full  text-white'>Send Now</button>
 </form>
         </div>
-        <div data-aos="zoom-in" className="flex-1 boxss self-start max-w-[500px] rounded-lg bg-white z-30 h-[500px] px-12 py-16 justify-between flex flex-col">
+        <div data-aos="zoom-in" className="flex-1 boxss self-start w-full md:max-w-[500px] rounded-lg bg-white z-30 gap-y-16 md:gap-0 md:h-[500px] px-12 py-16 justify-between flex flex-col">
             <div className="flex justify-start gap-x-5 items-start">
                 <GrMapLocation size={50}  className='text-[#3b5aad] map'/>
                     <div className="detail text-gray-600 font-[400] ">
